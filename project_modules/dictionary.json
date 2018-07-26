@@ -1,0 +1,18 @@
+{
+	"notImplemented": "Not implemented",
+	"fileRewritten": "File rewritten",
+	"emptyFieldForbidden": "You must fill the field",
+	"emptyFieldsForbidden": "All the fields must be filled",
+	"bookAdded": "Book added",
+	"bookIssued": "Book issued",
+	"bookPassed": "Book passed",
+	"errorWhileSaving": "ERROR while saving file",
+	"notFound": "Not found",
+	"wrongId": "Wrong id",
+	"bookNotFreeOrWrongId": "Book is NOT free Or WRONG Id",
+	"allFieldsMustBeFilledAndExistingLibsAre": "All the fields must be filled. Existing libraries are:",
+	"unsupportedStorageFormat": "Unsupported storage format",
+	"invalidFileOnPath": "Invalid file on path:",
+	"badRequest": "Bad request",
+	"fileAleadyExist": "File with such name already exists"
+}

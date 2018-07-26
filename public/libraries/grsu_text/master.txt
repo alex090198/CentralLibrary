@@ -1,0 +1,1 @@
+{"id":"c933dc70-b552-7d18-3c5b-2c8643775d82","author":"master","bookName":"master","library":"grsu_text","issued":"24-02-2016","issuedTill":"30-11-2016T23:47","issuedTo":"sasha"}null

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Library</title>
+		<link rel='stylesheet', href='/stylesheets/style.css' >
+	</head>
+	<body id="container">
+		<h1>The central library index</h1>
+
+
+		<h3>Add book to the base</h3>
+		<form id="addBookForm">
+			Author: <input type="text" name="author"/>
+			BookName: <input type="text" name="bookName"/>
+			LibraryName: <select required id="libraryNameInAddBookForm">
+							 <option value="">Select library</option>
+							 <option value="grsu_text">GRSU</option>
+							 <option value="karbysheva_csv">Karbysheva</option>
+							 <option value="lenina_csv">Lenina</option>
+						</select>
+			
+			<input id="btn" type="submit" value="addBook"/>
+		</form>
+		<div id="additionResult"></div>
+
+
+
+		<h3>Issue book</h3>
+		<form id="issueBookForm">
+			Book_id: <input type="text" name="bookId"/> <!--по id ищем файл-->
+			FIO: <input type="text" name="fio"/> <!--сэтаем в свойства книги-->
+			Till(day.month.year): <input type="datetime-local" name="till"/>
+			<input id="btn" type="submit" value="issue"/>
+		</form>
+		<div id="issueResult"></div> 
+
+		<h3>Pass book</h3>
+		<form id="passBookForm">
+			Book_id: <input type="text" id="passingBookIdInput" name="passingBookId"/>
+			<input id="btn"type="submit" value="findBook"/>
+			<input id="btn" type="button" value="passBook">
+		</form>
+		<div id="passingBookResult"></div>
+
+		<h3>Search book by FIO</h3>
+		<form id="searchBookByFioForm">
+			FIO: <input type="text" name="fio"/>
+			<input id="btn" type="submit" value="Find"/>
+		</form>
+		<div id="searchingBookByFioResult"></div>
+
+		<h3>Search book</h3>
+		<form id="searchBookForm">
+			Author: <input type="text" name="author"/>
+			BookName: <input type="text" name="bookName"/>
+			LibraryName: <select id="libraryNameInSearchBookForm">
+							 <option value="">Select library</option>
+							 <option value="grsu_text">GRSU</option>
+							 <option value="karbysheva_csv">Karbysheva</option>
+							 <option value="lenina_csv">Lenina</option>
+						</select>
+			<input type="radio" name="searchType" value="freeOnly" checked>Free books only</input>
+			<input type="radio" name="searchType" value="allBooks">All books</input>
+			<input id="btn" type="submit" value="Find">
+		</form>
+		<ul id="searchingResult"></ul>
+
+
+
+		<script src="/javascripts/HttpRequest.js"></script>
+		<script src="/javascripts/httpRequests/addBookForm.js"></script>
+		<script src="/javascripts/httpRequests/issueBookForm.js"></script>
+		<script src="/javascripts/httpRequests/passBookForm.js"></script>
+		<script src="/javascripts/httpRequests/searchBookByFioForm.js"></script>
+		<script src="/javascripts/httpRequests/searchBookForm.js"></script>
+		
+	</body>
+</html>

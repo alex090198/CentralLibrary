@@ -1,0 +1,74 @@
+body {
+
+  padding: 30px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+
+}
+
+a {
+
+  color: #00B7FF;
+
+}
+
+h1 {
+
+	padding:0 0 50px 50px;
+
+}
+
+#additionResult {
+
+	width: 500px;
+	height: 75px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	overflow: hidden;
+	background-color: #eee;
+
+}
+
+#issueResult {
+
+	width: 500px;
+	height: 75px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	overflow: hidden;
+	background-color: #eee;
+
+}
+
+#passingBookResult {
+	
+	width: 1500px;
+	height: 200px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	overflow: scroll;
+	background-color: #eee;
+
+}
+
+#searchingBookByFioResult {
+	
+	width: 1500px;
+	height: 200px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	overflow: scroll;
+	background-color: #eee;
+
+}
+
+p {
+
+	padding-left: 10px; 
+
+}
+
+#btn {
+
+	width: 100px;
+
+}

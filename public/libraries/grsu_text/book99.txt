@@ -1,0 +1,1 @@
+{"id":"d37c2305-77ce-4526-6945-6e5cd8fe7a43","author":"kajsdfh","bookName":"book99","library":"grsu_text","issued":"25-02-2016","issuedTill":"27-09-2016T07:51","issuedTo":"Zhelkovsky_Artyom_Olegovich"}

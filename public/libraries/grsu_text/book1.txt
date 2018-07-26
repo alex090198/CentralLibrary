@@ -1,0 +1,1 @@
+{"id":"f56e8b3e-8366-e458-9f8a-a2d442d5d634","author":"Bulgakov","bookName":"book1","library":"grsu_text","issued":"23/02/2016","issuedTill":"12.12.2016","issuedTo":"Zhelkovsky_Artyom_Olegovich"}
